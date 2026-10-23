@@ -31,3 +31,10 @@ python3 WorkflowTest_ForkPRSmoke_2026_TEST/demo.py 1 2 3
 ```
 
 此测试 PR 请勿合并。
+
+## 已执行的样例检查
+
+- Python 3.9.6：`python3 demo.py 1 2 3` 返回 `sum: 6`。
+- Python 3.9.6：`python3 demo.py -2 0 5` 返回 `sum: 3`。
+- 从仓库根目录和样例目录两种位置运行均通过。
+- 本节通过原 PR 分支的第二次提交补充，用于验证 PR 随分支推送自动更新。
